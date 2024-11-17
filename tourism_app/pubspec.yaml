@@ -1,0 +1,58 @@
+name: tourism_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.0.0
+  smooth_page_indicator: ^1.2.0+3
+  intl: ^0.19.0
+  flutter_localizations:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/london.jpg
+    - assets/paris.jpg
+    - assets/newyork.jpg
+    - assets/img1.jpg
+    - assets/img2.jpg
+    - assets/img3.jpg
+    - assets/img4.jpg
+    - assets/img5.jpg
+    - assets/img6.jpg
+    - assets/img7.jpg
+    - assets/img8.jpg
+    - assets/img9.jpg
+    - assets/img10.jpg
+    - assets/img11.jpg
+    - assets/img12.jpg
+    - assets/img13.jpg
+    - assets/img14.jpg
+    - assets/img15.jpg
+    - assets/img16.jpg
+    - assets/logo.jpg
+    - assets/background.jpg
+    - assets/config/login_screen_config.json
+
+uses-material-design: true
+
+fonts:
+  - family: NotoSans
+    fonts:
+      - asset: assets/fonts/NotoSans-Regular.ttf
+      - asset: assets/fonts/NotoSans-Bold.ttf
+        weight: 700
